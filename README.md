@@ -7,22 +7,27 @@
 
 **Alcance y Entorno de Prueba:**
   El análisis se centra en dos épicas principales:
-  **Epica 1 — Descarga de Imágenes** Detecte errores en la descarga directa, ventanas emergentes innecesarias y confirmaciones de descarga, mejorando la experiencia del usuario.
+    **Epica 1 — Descarga de Imágenes** Detecte errores en la descarga directa, ventanas emergentes innecesarias y confirmaciones de descarga, mejorando la experiencia del usuario.
   
-  **Epica 2 — Cartel "Pinterest es mejor con la app"**  Analice interrupciones causadas por el cartel emergente o redirecciones a la Play Store, buscando el uso más fluido de la app.
+    **Epica 2 — Cartel "Pinterest es mejor con la app"**  Analice interrupciones causadas por el cartel emergente o redirecciones a la Play Store, buscando el uso más fluido de la app.
 
-  **Otras funcionalidades de Pinterest Lite que no estaran incluidas en este analisis son :** registro y login de usuario, guardado y edición de pines, búsqueda y filtrado de contenido, perfil de usuario, y rendimiento o sincronización.
+    **Otras funcionalidades de Pinterest Lite que no estaran incluidas en este analisis son :** registro y login de usuario, guardado y edición de pines, búsqueda y filtrado de contenido, perfil de usuario, y rendimiento o sincronización.
 
-  **Entorno de Prueba:** Dispositivo Android — Pinterest Lite, conexion Wi-Fi y 4g.
+**Entorno de Prueba:** Dispositivo Android — Pinterest Lite, conexion Wi-Fi y 4g.
 
-   **Herramientas Utilizadas:**
+**Herramientas Utilizadas:**
    Git y GitHub — Google Sheets — Postman — Capturas de pantalla para envidencia — Google Docs.
 
-   **Conclusión General:**
+**Conclusión General:**
    Pinterest Lite presenta errores críticos en la funcionalidad de descarga de imágenes y en la aparicion del cartel promocional. afectando la experiencia del usuario. Con la correcciones sugeridas, la app podria considerarse lista para producción, mejorando su usabilidad y estabilidad.
 
 **Daily Progress**
-- 30/10: Creación del repositorio y carga de historias de usuario.
-- 31/10: Añadidos casos de prueba de Épica 1.
-- 01/11: Carga de casos de prueba de Épica 2 y planilla de ejecución.
-- 02/11: Se definió y añadio el alcance del testing.
+Registro de los avances diarios realizados durante el desarrollo del proyecto de testing.
+
+**30/10:** Se realizó el análisis inicial del proyecto y se definieron las épicas principales.
+
+**31/10:** Se redactaron las historias de usuario junto con sus criterios de aceptación.
+
+**01/11:** Se agregó el documento de alcance del testing, detallando qué se probará y qué no.
+
+**02/11:** Se diseñaron y documentaron los casos de prueba funcionales.
