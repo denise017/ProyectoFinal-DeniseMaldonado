@@ -1,0 +1,54 @@
+Historias de usuario con criterios de aceptación
+HU 1  – Descarga Directa
+	Como usuaria, quiero poder descargar una imagen con un solo click sin que se abra ninguna ventana extra, asi lo hago mas rapido y sin distracciones.
+	CA1: Al tocar “Descargar”, la imagen se guarda directo en la galería
+	CA2: Al descargar se muestra un cartel de que tu descarga se completó con éxito.
+	CA3: No se muestra ninguna ventana ni cartel adicional.
+	CA4: Funciona correctamente incluso con conexión lenta.
+	CA5:Si no hay conexión a internet, debe aparecer un mensaje claro que la descarga no se puede completar.
+	CA6:Si el dispositivo no tiene espacio suficiente, la app debe mostrar un mensaje de error.
+	CA7:Las imágenes descargadas deben guardarse siempre en la misma carpeta (“Pinterest Lite”)
+	CA8:El formato y calidad de la imagen descargada debe mantenerse igual a la original.
+	CA9:Se debe poder realizar más de una descarga seguida sin errores
+	CA10:El botón “Descargar” debe funcionar correctamente en todas las sesiones (inicio, tableros, búsqueda).
+HU 2  – Cartel de “Pinterest es Mejor en la App”
+	Como usuaria, quiero poder navegar en Pinterest Lite sin que aparezca constantemente el cartel que invita a descargar la versión completa o me dirija a la Play Store, así puedo usar la app tranquila y sin errores.
+	CA1:El cartel no debe aparecer de forma repetitiva mientras se navega dentro de la app.
+	CA 2:Si aparece el cartel debe poder cerrarse fácilmente con una X visible.
+	CA3:Una vez cerrado, el cartel no debe volver a aparecer en la misma sesión.
+	CA4:No debe redirigir a la Play Store sin que el usuario toque esta opción.
+	CA5:Si el usuario toca el cartel voluntariamente, debe abrir la Play Store sin errores.
+	CA6:Si el usuario está viendo un video o imagen, el cartel no debe interrumpir la visualización.
+	CA7:El cartel debe tener un diseño discreto que no tape contenido importante.
+	CA8:Debe existir una opción de “No volver a mostrar” que evite futuras apariciones del cartel.
+	CA9: El comportamiento del cartel debe ser el mismo en diferentes dispositivos y resoluciones de pantalla.
+	CA10: El cartel debe mostrarse una vez por sesión.
+HU 3  – Login y Registro
+	Como usuaria, quiero poder iniciar sesión y registrar fácilmente con mi cuenta de Google o email, para acceder a mis tableros y pines guardados.
+	CA1:El botón “Continuar con Google” permite ingresar sin errores.
+	CA2:Si el usuario no tiene cuenta, puede registrarse en la misma ventana.
+	CA3:Al iniciar sesión, se muestra correctamente un cartel de inicio de sesión exitoso.
+
+
+HU 4  – Guardar y Editar pines
+	Como usuaria, quiero poder guardar y editar pines en mis tableros para organizar las  ideas que me interesan.
+	CA1: Al presionar “guardar”, el pin se agrega al tablero elegido.
+	CA2: Se puede editar el nombre o descripción del pin guardado.
+	CA3: El cambio se actualiza correctamente al volver a abrir el pin.
+HU 5  – Búsqueda y Filtrado
+Como usuaria, quiero poder buscar y filtrar pienses según palabras clave, para encontrar más rápido las ideas que me interesan.
+CA1:La barra de búsqueda responde al escribir y sugiere términos relacionados.
+CA2:Los resultados mostrados coinciden con la búsqueda.
+CA3:Los filtros aplicados se mantienen activos.
+HU 6  – Perfil del Usuario
+	Como usuaria, quiero poder acceder a mi perfil, ver mis tableros y editar información básica, para tener mi cuenta personalizada.
+	CA1: El botón de perfil redirige correctamente a la sección del usuario.
+	CA2: Se muestran todos los tableros creados y pines guardados.
+	CA3: Se puede editar nombre o foto sin errores.
+HU 7  – Rendimiento y Sincronización
+Como usuaria, quiero que la app funcione rápido y sincronice mis pines aunque tenga mala conexión, para no perder información.
+CA1:La app carga el contenido en menos de 3 segundos con una buena conexión.
+CA2:Los pines nuevos se sincronizan al recuperar una buena conexión.
+CA3:No se bloquea ni se cierra durante la carga
+
+
