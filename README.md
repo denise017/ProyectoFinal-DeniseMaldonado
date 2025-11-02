@@ -20,3 +20,9 @@
 
    **Conclusión General:**
    Pinterest Lite presenta errores críticos en la funcionalidad de descarga de imágenes y en la aparicion del cartel promocional. afectando la experiencia del usuario. Con la correcciones sugeridas, la app podria considerarse lista para producción, mejorando su usabilidad y estabilidad.
+
+**Daily Progress**
+- 30/10: Creación del repositorio y carga de historias de usuario.
+- 31/10: Añadidos casos de prueba de Épica 1.
+- 01/11: Carga de casos de prueba de Épica 2 y planilla de ejecución.
+- 02/11: Se definió y añadio el alcance del testing.
