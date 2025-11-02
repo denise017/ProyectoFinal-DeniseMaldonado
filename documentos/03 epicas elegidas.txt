@@ -1,0 +1,9 @@
+Épicas elegidas
+
+Epica 1 :Mejorar la experiencia al descargar imágenes
+Al momento de descargar imágenes (la función más usada en la mayoría de los usuarios) te aparece una ventana que te pregunta si quieres guardarla en favoritos o compartirla y eso hace que el proceso sea más largo y molesto. Ya que si quisiera compartir o guardar lo hubiera hecho con su respectivo botón que está mucho más  visible que la opción de descargar que está más oculta. 
+El objetivo es que descargar una imagen sea más rápido y directo, con un solo click. 
+
+Épica 2 :Evitar las interrupciones con el cartel de “Pinterest es mejor con la App”
+Mientras se navega en Pinterest Lite, es inevitable el constante cartel invitando a descargar la aplicación completa, o directamente abre la Play Store mostrando la app de pinterest.
+Esto interrumpe su uso normal y da la sensación que no estás usando una app si no un navegador. El objetivo es que el usuario pueda navegar tranquilo dentro de Pinterest Lite sin que se abra un cartel o redirigirlo a la Play Store constantemente.

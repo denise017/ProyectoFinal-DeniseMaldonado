@@ -1,0 +1,6 @@
+Documentación QA - Aplicación  Pinterest Lite
+
+Análisis inicial
+
+Pinterest Lite es una versión más liviana de la misma. Está pensada para usar menos datos móviles y menos memoria. Sirve para buscar, guardar y compartir ideas o imágenes.
+En el análisis note  que hay algunas cosas que podrían mejorarse sobre todo como se descargan las imágenes y que todo el tiempo aparece un cartel que dice “Pinterest es mejor con la app, descargala” o directamente se abre el Play Store automáticamente. Actúa como un navegador más que una app real.
