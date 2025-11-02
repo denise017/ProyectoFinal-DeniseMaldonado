@@ -7,11 +7,11 @@
 
 **Alcance y Entorno de Prueba:**
   El análisis se centra en dos épicas principales:
-    **Epica 1 — Descarga de Imágenes** Detecte errores en la descarga directa, ventanas emergentes innecesarias y confirmaciones de descarga, mejorando la experiencia del usuario.
+  **Epica 1 — Descarga de Imágenes** Detecte errores en la descarga directa, ventanas emergentes innecesarias y confirmaciones de descarga, mejorando la experiencia del usuario.
   
-    **Epica 2 — Cartel "Pinterest es mejor con la app"**  Analice interrupciones causadas por el cartel emergente o redirecciones a la Play Store, buscando el uso más fluido de la app.
+  **Epica 2 — Cartel "Pinterest es mejor con la app"**  Analice interrupciones causadas por el cartel emergente o redirecciones a la Play Store, buscando el uso más fluido de la app.
 
-    **Otras funcionalidades de Pinterest Lite que no estaran incluidas en este analisis son :** registro y login de usuario, guardado y edición de pines, búsqueda y filtrado de contenido, perfil de usuario, y rendimiento o sincronización.
+  **Otras funcionalidades de Pinterest Lite que no estaran incluidas en este analisis son :** registro y login de usuario, guardado y edición de pines, búsqueda y filtrado de contenido, perfil de usuario, y rendimiento o sincronización.
 
 **Entorno de Prueba:** Dispositivo Android — Pinterest Lite, conexion Wi-Fi y 4g.
 
