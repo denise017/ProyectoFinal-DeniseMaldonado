@@ -1,92 +1,40 @@
-	🔗https://docs.google.com/document/d/1Hf6h-wDi1NqBT7iTy0spVq039K7s_xGbnXTjSUjjRdM/edit?usp=sharing
+	https://docs.google.com/document/d/1UG3l1sJeTzjud0xqlDmnuanwGnMcqRc26BfyJptQ5Zc/edit?usp=sharing
 
-🧩 TRABAJO FINAL INTEGRADOR  TESTING ADA – Maldonado Denise
-🧾 A. Documentación QA - Aplicación : Pinterest Lite
-1️⃣. Análisis inicial:
-Pinterest Lite es una versión más liviana de la aplicación original, está diseñada para usar menos datos móviles y menos espacio de almacenamiento. Sirve para buscar, guardar y compartir ideas o imágenes de manera sencilla.
-En el análisis note algunos aspectos que podrían mejorarse principalmente como se descargan las imágenes y la frecuencia del cartel que indica “Pinterest es mejor con la app, descargala”, el cual en algunos casos redirige automáticamente a la Play Store. Estas situaciones afectan a la experiencia del usuario y hacen que la aplicación se perciba mas como un navegador que como una app real. 
+		Informe Final
+	Proyecto : Pinterest Lite
+	Tester : Maldonado Denise
+	Fecha : 3/11/25
+🧩Marco de Trabajo
+Metodología: Exploratory Testing + Caja negra.
+Duración: 3 horas de pruebas manuales.
+Herramientas: Dispositivo Android, Capturas de pantalla, Grabaciones de pantalla, Google Sheets, Google Docs.
+Rol: Tester manual
+Ambiente: Producción
+🔎Alcance
+El testing se centró en analizar y probar los dos errores más críticos detectados en la aplicación Pinterest Lite:
+1.La interrupción constante por el cartel “Pinterest es mejor con la app”.
+2.La experiencia deficiente al descargar imágenes, que incluye ventanas innecesarias y cierres inesperados.
+El objetivo fue mejorar la experiencia del usuario al usar la app, verificando que ambas funciones operen correctamente sin interrumpir la navegación.
+ Quedaron fuera del alcance el login, registro, búsqueda, perfil, guardado y edición de pines, ya que el foco estuvo en los dos escenarios mencionados.
 
-2️⃣. Épica elegida y justificación.
-💡Epica 1 :Mejorar la experiencia al descargar imágenes
-Al momento de descargar imágenes (la función más usada en la mayoría de los usuarios) te aparece una ventana que te pregunta si quieres guardarla en favoritos o compartirla y eso hace que el proceso sea más largo y molesto. 
-El objetivo es que descargar una imagen sea más rápido y directo, con un solo click, evitando casos innecesarios.
-Durante estas pruebas también identifique fallas relacionadas con el proceso de descarga, como interrupciones al cambiar de red, cancelaciones al minimizar la aplicación o cierres inesperados al realizar descargas consecutivas. Estas observaciones se incorporaron dentro de la misma épica ya que afectan directamente la experiencia del usuario al intentar descargar contenido. 
-💡Épica 2 :Evitar las interrupciones con el cartel de “Pinterest es mejor con la App”
-Mientras se navega en Pinterest Lite, es inevitable el constante cartel invitando a descargar la aplicación completa, o directamente abre la Play Store mostrando la app de pinterest. Esto interrumpe su uso normal y da la sensación que no estás usando una app si no un navegador. 
-El objetivo es que el usuario pueda navegar tranquilo dentro de Pinterest Lite sin que se abra un cartel o redirigirlo a la Play Store constantemente.
-Durante las pruebas, tambien se detectaron también aspectos visuales del cartel que afectan la usabilidad (como su tamaño o la superposición con botones principales), por lo que se incorporaron dentro de la misma épica
+📊Resumen de Severidades
 
+	🔎Total de bugs encontrados :8	
+	🧩Total de bugs críticos/altos :7 (87.5)
 
-3️⃣. Historias de usuario con criterios de aceptación.
-🧩HU 1  – Descarga Directa
-	👉Como usuaria, quiero poder descargar una imagen con un solo click sin que se abra ninguna ventana extra, asi lo hago mas rapido, sin distracciones y sin pasos innecesarios.
-	CA1: Al tocar “Descargar”, la imagen se guarda directo en la galería
-	CA2: Al descargar se muestra un cartel de que tu descarga se completó con éxito.
-	CA3: No se muestra ninguna ventana ni cartel adicional.
-	CA4: Funciona correctamente incluso con conexión lenta.
-	CA5:Si no hay conexión a internet, debe aparecer un mensaje claro que la descarga no se puede completar.
-	CA6:Si el dispositivo no tiene espacio suficiente, la app debe mostrar un mensaje de error.
-	CA7:Las imágenes descargadas deben guardarse siempre en la misma carpeta (“Pinterest Lite”)
-	CA8:El formato y calidad de la imagen descargada debe mantenerse igual a la original.
-	CA9:Se debe poder realizar más de una descarga seguida sin errores.
-	CA10:El botón “Descargar” debe funcionar correctamente en todas las sesiones (inicio, tableros, búsqueda).
+🔍6. Conclusiones
+El análisis permitió identificar que Pinterest Lite presenta fallas funcionales y visuales significativas que afectan directamente la experiencia de uso.
+Los principales problemas se concentran en la interferencia del cartel publicitario y la inestabilidad del proceso de descarga, lo cual limita la funcionalidad de la app y su percepción de calidad.
+A pesar de cumplir con sus objetivos básicos, la app requiere optimización en la usabilidad y estabilidad general.
 
-🧩HU 2  – Cartel de “Pinterest es Mejor en la App”
-	👉Como usuaria, quiero poder navegar en Pinterest Lite sin que aparezca constantemente el cartel que invita a descargar la versión completa o me dirija a la Play Store, así puedo usar la app tranquila y sin errores.
-	CA1:El cartel no debe aparecer de forma repetitiva mientras se navega dentro de la app.
-	CA 2:Si aparece el cartel debe poder cerrarse fácilmente con una X visible.
-	CA3:Una vez cerrado, el cartel no debe volver a aparecer en la misma sesión.
-	CA4:No debe redirigir a la Play Store sin que el usuario toque esta opción.
-	CA5:Si el usuario toca el cartel voluntariamente, debe abrir la Play Store sin errores.
-	CA6:Si el usuario está viendo un video o imagen, el cartel no debe interrumpir la visualización.
-	CA7:El cartel debe tener un diseño discreto que no tape contenido importante.
-	CA8:Debe existir una opción de “No volver a mostrar” que evite futuras apariciones del cartel.
-	CA9: El comportamiento del cartel debe ser el mismo en diferentes dispositivos y resoluciones de pantalla.
-	CA10: El cartel debe mostrarse una vez por sesión.
+💬7. Recomendaciones
+1.Revisar la frecuencia de aparición del cartel, garantizando que no se muestre de forma constante durante la navegación.
+2.Revisar el funcionamiento del botón “x” del cartel, asegurando que cumpla su función de cierre sin redirigir al usuario fuera de la aplicación.
+3.Incorporar la opción “No volver a mostrar” para permitir al usuario gestionar la aparición del cartel y mejorar la experiencia de uso.
+4.Ajustar la posición del cartel, evitando que oculte los botones principales y asegurando una correcta interacción con la interfaz.
+5.Verificar el comportamiento de la aplicación al rotar la pantalla, garantizando que no se interrumpa la navegación ni se produzcan fallos en la interfaz.
+6.Revisar el proceso de descarga al minimizar la aplicación, evitando cancelaciones o pérdidas de progreso.
+7.Optimizar el manejo de descargas ante cambios de red, evitando que se cancelen o reinicien y asegurando la continuidad del proceso.
+8.Mejorar la estabilidad de la aplicación al realizar múltiples descargas consecutivas, evitando cierres inesperados.
 
-HU 3  – Login y Registro
-	👉Como usuaria, quiero poder iniciar sesión y registrar fácilmente con mi cuenta de Google o email, para acceder a mis tableros y pines guardados.
-	CA1:El botón “Continuar con Google” permite ingresar sin errores.
-	CA2:Si el usuario no tiene cuenta, puede registrarse en la misma ventana.
-	CA3:Al iniciar sesión, se muestra correctamente un cartel de inicio de sesión exitoso.
-
-
-HU 4  – Guardar y Editar pines
-	👉Como usuaria, quiero poder guardar y editar pines en mis tableros para organizar las  ideas que me interesan.
-	CA1: Al presionar “guardar”, el pin se agrega al tablero elegido.
-	CA2: Se puede editar el nombre o descripción del pin guardado.
-	CA3: El cambio se actualiza correctamente al volver a abrir el pin.
-HU 5  – Búsqueda y Filtrado
-👉Como usuaria, quiero poder buscar y filtrar pienses según palabras clave, para encontrar más rápido las ideas que me interesan.
-CA1:La barra de búsqueda responde al escribir y sugiere términos relacionados.
-CA2:Los resultados mostrados coinciden con la búsqueda.
-CA3:Los filtros aplicados se mantienen activos.
-HU 6  – Perfil del Usuario
-	👉Como usuaria, quiero poder acceder a mi perfil, ver mis tableros y editar información básica, para tener mi cuenta personalizada.
-	CA1: El botón de perfil redirige correctamente a la sección del usuario.
-	CA2: Se muestran todos los tableros creados y pines guardados.
-	CA3: Se puede editar nombre o foto sin errores.
-HU 7  – Rendimiento y Sincronización
-👉Como usuaria, quiero que la app funcione rápido y sincronice mis pines aunque tenga mala conexión, para no perder información.
-CA1:La app carga el contenido en menos de 3 segundos con una buena conexión.
-CA2:Los pines nuevos se sincronizan al recuperar una buena conexión.
-CA3:No se bloquea ni se cierra durante la carga
-
-4️⃣. Alcance del testing (qué se probará y qué no).
-
-
-El alcance del testing se centrará en analizar y probar los dos errores más críticos detectados en la aplicación Pinterest Lite. 
-El primero es mejorar la experiencia al descargar imágenes, ya que actualmente, al intentar hacerlo, aparece una ventana que pregunta si quiere guardar en favoritos o compartir en otras redes sociales, lo cual vuelve el proceso más lento y confuso. Se evaluará que la descarga sea directa, que se muestre un mensaje de confirmación correcto, que las imágenes se guarden sin errores y en su carpeta correspondiente. 
-El segundo punto a trabajar será evitar las interrupciones con el cartel que dice “Pinterest es mejor con la app”, que aparece constantemente o redirige a la Play Store. Se verificará su frecuencia, diseño, posible de cerrarlo, y que respete la opción del usuario si elige “No volver a mostrar”. 
-Fuera del alcance quedan otras funcionalidades de Pinterest Lite como el login y registro de usuario, guardado y edición de pines, la búsqueda y filtrado del contenido, el perfil del usuario y las pruebas de rendimiento general, ya que el foco del trabajo está puesto únicamente en los dos escenarios mencionados que afectan directamente la experiencia de uso.
-
-5️⃣. Casos de Prueba con Ejecución
-matriz_pruebas
-
-6️⃣. Informe de Bugs
-🐞Bug Report
-Informe de Bugs
-7️⃣. Presentación para la dirección
-
-https://www.canva.com/design/DAG3nJq667g/TBQl6qTltxVKyDCrXFDBLA/edit?utm_content=DAG3nJq667g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton		
 
