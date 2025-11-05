@@ -1,3 +1,5 @@
+	🔗 https://docs.google.com/document/d/1naU2WsPVy3gumWbwz_ot5DgbET5xIgjYSVkCxRdN7GI/edit?usp=sharing
+
 Historias de usuario con criterios de aceptación.
 🧩HU 1  – Descarga Directa
 	👉Como usuaria, quiero poder descargar una imagen con un solo click sin que se abra ninguna ventana extra, asi lo hago mas rapido, sin distracciones y sin pasos innecesarios.
