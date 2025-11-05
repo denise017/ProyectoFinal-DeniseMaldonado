@@ -1,7 +1,0 @@
-Alcance del testing 
-
-El alcance del testing se centrará en analizar y probar los dos errores más críticos detectados en la aplicación Pinterest Lite. 
-El primero es mejorar la experiencia al descargar imágenes, ya que actualmente, al intentar hacerlo, aparece una ventana que pregunta si quiere guardar en favoritos o compartir en otras redes sociales, lo cual vuelve el proceso más lento y confuso. Se evaluará que la descarga sea directa, que se muestre un mensaje de confirmación correcto, que las imágenes se guarden sin errores y en su carpeta correspondiente. 
-El segundo punto a trabajar será evitar las interrupciones con el cartel que dice “Pinterest es mejor con la app”, que aparece constantemente o redirige a la Play Store. Se verificará su frecuencia, diseño, posible de cerrarlo, y que respete la opción del usuario si elige no volver a mostrarlo. 
-Fuera del alcance quedan otras funcionalidades de Pinterest Lite como el login y registro de usuario, guardado y edición de pines, la búsqueda y filtrado del contenido, el perfil del usuario y las pruebas de rendimiento general, ya que el foco del trabaja está puesto únicamente en los dos escenarios mencionados que afectan directamente la experiencia de uso.
-
