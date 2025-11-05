@@ -20,14 +20,3 @@
 
 **Conclusión General:**
    Pinterest Lite presenta errores críticos en la funcionalidad de descarga de imágenes y en la aparicion del cartel promocional. afectando la experiencia del usuario. Con la correcciones sugeridas, la app podria considerarse lista para producción, mejorando su usabilidad y estabilidad.
-
-**Daily Progress**
-Registro de los avances diarios realizados durante el desarrollo del proyecto de testing.
-
-**30/10:** Se realizó el análisis inicial del proyecto y se definieron las épicas principales.
-
-**31/10:** Se redactaron las historias de usuario junto con sus criterios de aceptación.
-
-**01/11:** Se agregó el documento de alcance del testing, detallando qué se probará y qué no.
-
-**02/11:** Se diseñaron y documentaron los casos de prueba funcionales.
