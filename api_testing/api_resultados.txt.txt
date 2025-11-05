@@ -1,0 +1,32 @@
+Testing de API (Fake Store API)
+
+API-01 – GET /users
+-Objetivo: Obtener la lista completa de usuarios registrados.
+-Resultado esperado: Código 200 y listado de usuarios con los campos id, email, username.
+-Resultado obtenido: Exitoso. Código 200. Cada objeto contenía los campos esperados junto con datos adicionales (address, name, phone, etc.).
+
+API-02 – GET /carts/2
+-Objetivo: Consultar un carrito específico mediante su ID.
+-Resultado esperado: Código 200 y objeto con los campos id, userId, date, products.
+-Resultado obtenido: Exitoso. Código 200. El campo products contiene un array con los productos y sus cantidades.
+
+
+API-03 – POST /carts
+-Objetivo: Crear un nuevo carrito con productos simulados.
+-Resultado esperado: Código 201 y carrito creado.
+-Resultado obtenido: Exitoso. Código 200 y devolvió el carrito creado con los campos enviados (id, date, products).
+
+API-04 – PUT /products/0
+-Objetivo: Actualizar los datos de un producto existente.
+-Resultado esperado: Código 200 y objeto actualizado con campos id, title, price, description, category.
+-Resultado obtenido: Exitoso. Código 200 y se actualizo cambios enviados.
+
+API-05 – GET /user/999
+-Objetivo: Consultar un usuario inexistente.
+-Resultado esperado: Código 404 o respuesta vacía.
+-Resultado obtenido: ⚠️ Fallido controlado. La API devolvió código 404 y body vacío, confirmando que el recurso no existe.
+
+API-06 – GET /products
+-Objetivo: Validar la estructura del JSON devuelto.
+-Resultado esperado: Código 200 y cada producto debe contener id, title, price, category, image.
+-Resultado obtenido: Exitoso. Todos los objetos del array cumplieron con los campos requeridos.
